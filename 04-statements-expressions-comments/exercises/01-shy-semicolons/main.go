@@ -17,6 +17,11 @@ package main
 //  2. Observe how Go fixes them for you
 //
 // ---------------------------------------------------------
+import (
+	"fmt"
+)
 
 func main() {
+	fmt.Println("Hello")
+	fmt.Println("World")
 }
